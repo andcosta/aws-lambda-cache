@@ -1,0 +1,27 @@
+{
+  "name": "aws-lambda-cache",
+  "version": "0.0.1",
+  "description": "Aws Lambda Cache",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andcosta/aws-lambda-cache.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "aws",
+    "lambda",
+    "aws api gateway",
+    "parameter",
+    "request",
+    "cache"
+  ],
+  "author": {
+    "name": "Anderson Costa",
+    "email": "andcosta.dev@gmail.com"
+  },
+  "license": "MIT"
+}
