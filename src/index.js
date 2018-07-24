@@ -1,7 +1,5 @@
 'use strict';
 
-class Cache {
-  constructor() {}
-}
+class Cache {}
 
 module.exports = Cache;
