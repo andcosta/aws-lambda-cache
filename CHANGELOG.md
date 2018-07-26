@@ -1,4 +1,8 @@
-## 0.1.1 (Jul 26, 2018)
+## 0.2.1 (Jul 24, 2018)
+
+- methods: set, get, remove, clear
+
+## 0.1.1 (Jul 20, 2018)
 
 - cache
 
