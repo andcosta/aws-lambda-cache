@@ -1,3 +1,7 @@
+## 0.2.1 (Jul 27, 2018)
+
+- Time in minutes
+
 ## 0.2.1 (Jul 24, 2018)
 
 - methods: set, get, remove, clear
