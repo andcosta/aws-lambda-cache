@@ -3,12 +3,12 @@
 class Cache {
   constructor() {
     this._store = Object.create(null);
-    this._defaulExpiresAt = 21600000; // 6 hours.
+    this._defaulExpiresAt = 5; // 5 Minutes.
   }
 
-  set(key, value, expiresAt) {
+  set(key, value, expiresAtMinutes) {
     this._store[key] = {
-      expiresAt: Date.now() + this._expiresAt(expiresAt),
+      expiresAt: new Date(new Date().getTime() + this._expiresAt(expiresAtMinutes) * 60000).getTime(),
       payload: value
     };
   }
@@ -17,7 +17,7 @@ class Cache {
     const item = this._store[key];
 
     if (!item) return undefined;
-    if (Date.now() >= item.expiresAt) {
+    if (new Date().getTime() >= item.expiresAt) {
       this.remove(key);
       return undefined;
     }
