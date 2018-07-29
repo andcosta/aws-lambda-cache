@@ -14,7 +14,7 @@ class Cache {
   }
 
   get(key) {
-    const item = this._store[key];
+    var item = this._store[key];
 
     if (!item) return undefined;
     if (new Date().getTime() >= item.expiresAt) {
