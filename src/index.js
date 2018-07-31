@@ -1,6 +1,6 @@
 'use strict';
 
-class Cache {
+class MemoryCache {
   constructor() {
     this._store = Object.create(null);
     this._defaulExpiresAt = 5; // 5 Minutes.
@@ -41,4 +41,10 @@ class Cache {
   }
 }
 
-module.exports = Cache;
+class DiskCache {
+  constructor() {
+    this._defaulExpiresAt = 5; // 5 Minutes.
+  }
+}
+
+module.exports = { MemoryCache, DiskCache };
