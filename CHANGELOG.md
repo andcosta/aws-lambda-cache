@@ -1,3 +1,7 @@
+## 0.4.0 (Jul 30, 2018)
+
+- Files MemoryCache and DiskCache
+
 ## 0.3.0 (Jul 27, 2018)
 
 - Time in minutes
