@@ -1,3 +1,7 @@
+## 0.4.1 (Aug 02, 2018)
+
+- Readme reference
+
 ## 0.4.0 (Jul 30, 2018)
 
 - Files MemoryCache and DiskCache
