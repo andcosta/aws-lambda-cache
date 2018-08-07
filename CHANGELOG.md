@@ -1,3 +1,7 @@
+## 0.4.1 (Aug 07, 2018)
+
+- DiskCache methods: set and get
+
 ## 0.4.1 (Aug 02, 2018)
 
 - Readme reference
