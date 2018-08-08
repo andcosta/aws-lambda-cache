@@ -23,5 +23,9 @@
     "name": "Anderson Costa",
     "email": "andcosta.dev@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.4.2"
+  }
 }
