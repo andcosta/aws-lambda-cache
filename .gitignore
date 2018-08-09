@@ -1,0 +1,30 @@
+# JS files
+package-lock.json
+node_modules
+.npmrc
+
+# Editor configuration files
+.vscode
+.history/
+
+# Local configuration files (sdk path, etc)
+local.properties
+
+# Android Studio
+android/.gradle/
+android/.idea/
+.idea/*
+build/
+
+# Build and storage files
+*.tgz
+target
+*.jar
+*.aar
+*.zip
+
+# OSX files
+.DS_Store
+
+# Windows files
+Thumbs.db
