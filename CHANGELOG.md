@@ -1,3 +1,7 @@
+## 0.4.2 (Aug 16, 2018)
+
+- Unit test memoryCache
+
 ## 0.4.1 (Aug 07, 2018)
 
 - DiskCache methods: set and get

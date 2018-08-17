@@ -1,10 +1,13 @@
 const MemoryCache = require('../src/memoryCache');
+const memoryCache = new MemoryCache();
 
 describe('Memory Cache', () => {
   test('Set cache', async () => {
-    const memoryCache = new MemoryCache();
     memoryCache.set('key', 'value');
-    //     // expect(response.statusCode).toEqual(200);
-    //     // expect(data.module.value.lastUpdate).not.toBeNull();
+  });
+
+  test('Get cache', async () => {
+    const cache = memoryCache.get('key');
+    expect(cache).toEqual('value');
   });
 });
