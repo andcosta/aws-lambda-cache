@@ -39,3 +39,44 @@ class DiskCache {
 }
 
 module.exports = DiskCache;
+
+/*
+
+const fs = require('fs');
+
+// EXISTE arquivo
+          // ***
+          var existeArquivo = fs.existsSync(`/tmp/${idCompany}.json`);
+          arquivoTmp.existeArquivo = existeArquivo;
+
+          var existeArquivo2 = fs.existsSync(`/tmp/xxx${idCompany}.json`);
+          arquivoTmp.existeArquivo2 = existeArquivo2;
+
+          // LÊ arquivo
+          // ***
+          var content = fs.readFileSync(`/tmp/${idCompany}.json`, 'utf8');
+          arquivoTmp.arquivoLido2 = JSON.parse(content);
+
+          // DELETE arquivo
+          // ***
+          await fs.unlink(`/tmp/1-${idCompany}.json`);
+          await fs.unlink(`/tmp/3-${idCompany}.json`);
+
+          // LIST arquivo
+          // ***
+          const listaFiles = [];
+          fs.readdirSync('/tmp/').forEach(file => {
+            listaFiles.push(file);
+          });
+          arquivoTmp.arquivoLista = listaFiles;
+
+          // TODO:
+          //
+          // - informar o tamanho do diretório /temp/
+
+          result.arquivoTmp = arquivoTmp;
+
+          body = result;
+          statusCode = result.statusCode;
+
+*/
