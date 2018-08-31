@@ -1,3 +1,7 @@
+## 1.0.0 (Aug 31, 2018)
+
+- Release
+
 ## 0.4.2 (Aug 16, 2018)
 
 - Unit test memoryCache
